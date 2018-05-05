@@ -1,0 +1,81 @@
+@media print
+{
+
+    footer {page-break-after: always;}
+    #prints{
+        display:none;
+    }
+
+    .amount_tbl{
+        text-align: right;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    #back{
+        display:none;
+    }
+
+    .table_align h4{
+        text-align: center;
+        color: #FFF !important;
+        background-color: #666 !important;
+    }
+
+    .table_align h5{
+        border: 1px dashed #333;
+    }
+
+
+    .table_align table td, .table_align table th {
+        border: 1px solid #ccc !important;
+        font-size: 9pt;
+    }
+
+    .table_align table tr:nth-child(even){
+        background-color: #ddd !important;
+    }
+
+
+    .table_align {
+        column-count: 3;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+    }
+
+
+
+}
+
+
+
+.amount_tbl{
+    text-align: right;
+    font-weight: bold;
+    color: #000000;
+}
+
+.table_align h4{
+    text-align: center;
+    background-color: #666666;
+    color: #FFFFFF;
+
+}
+
+.table_align h5{
+    border: 1px dashed #333333;
+}
+
+.table_align table th{
+   /* width: 180px !important;*/
+}
+
+.table_align {
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+}
+
+.table_align table td, .table_align table th {
+    font-size: 9pt;
+}
